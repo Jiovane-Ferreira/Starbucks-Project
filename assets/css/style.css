@@ -67,3 +67,34 @@ header .line {
     width: 24px;
     height: 24px;
 }
+
+.banner {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+}
+
+.banner h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 90px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.banner--imagens {
+    margin-top: 60px;
+}
+
+.banner--imagens img {
+    width: 148px;
+    height: 148ox;
+    border: 6px solid #117050;
+    border-radius: 50%;
+    margin-right: 38px;
+
+}
