@@ -12,7 +12,7 @@ header .line {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1440px;
     margin: auto;
 }
 
@@ -49,10 +49,6 @@ h2 {
 .btn:hover {
     color: #fff;
     background-color: #454545;
-}
-
-.container {
-    max-width: 100%;
 }
 
 .container--header {
@@ -223,12 +219,13 @@ h2 {
 .area4 {
     display: grid;
     grid-template-columns: 580px 1fr;
-   
+    background-color: #e8e9ee;
 }
+   
+
 
 .area4--content {
     padding: 160px 80px;
-    background-color: #e8e9ee;
 }
 
 .area4--text {
@@ -264,3 +261,57 @@ footer {
         padding: 2rem;
     }
 }
+
+@media (max-width: 768px) {
+    .banner {
+    background-image: url(../images/bg.jpg);
+    background-position: right;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    }
+
+    .area1--content {
+        width: 80%;
+        padding: 1.5rem;
+    }
+
+   .area2--content h2 {
+        font-size: 2em;
+        line-height: 1em;
+    } 
+
+    .area2--text {
+        padding: 0;
+    }
+
+
+    .area2--content {
+        width: 65%;
+        padding: 65px;
+    }
+
+    .area3--content {
+        padding: 2rem;
+    }
+
+    .area4--content {
+        padding: 6em 7em;
+        width: 65%;
+    }
+
+    .area4 {
+        display: grid;
+        grid-template-columns: 50% 1fr;
+    }
+
+    .area4--img1 {
+        background-position: center;
+    }
+
+    .area5 {
+        background-position: right;
+    }
+
+}
+
