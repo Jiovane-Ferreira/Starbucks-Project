@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    padding: 0;
     
 }
 
@@ -61,12 +71,14 @@ h2 {
 .logo img {
     width: 64px;
     height: 64px;
+    margin: .5rem;
 }
 
 .header--right {
     display: flex;
     align-items: center;
     cursor: pointer;
+    padding: 1rem;
 }
 
 .header--search form {
@@ -205,6 +217,10 @@ h2 {
     background-position: left;   
 }
 
+.area3 h2 {
+    font-size: 3.1rem;
+}
+
 .area3--text {
     margin-bottom: 50px;
     line-height: 25px;
@@ -257,7 +273,6 @@ footer {
 @media (max-width: 1140px) {
     .container {
         padding: 2rem;
-        overflow-y: hidden;
     }
 }
 
@@ -271,7 +286,6 @@ footer {
     }
 
     .area1--content {
-        width: 80%;
         padding: 1.5rem;
     }
 
@@ -286,17 +300,11 @@ footer {
 
 
     .area2--content {
-        width: 65%;
         padding: 65px;
     }
 
     .area3--content {
         padding: 2rem;
-    }
-
-    .area4--content {
-        padding: 6em 7em;
-        width: 65%;
     }
 
     .area4 {
@@ -403,7 +411,6 @@ footer {
         flex-direction: column;
         order: 1;
         padding: 3rem 5rem;
-        width: 65%;
     }
 
     .area4--img1 {
